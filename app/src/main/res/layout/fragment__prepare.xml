@@ -50,6 +50,124 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"/>
 
+            <!-- Buttons -->
+            <Button
+                android:id="@+id/button_avalanche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avalanche"
+                android:onClick="openAvalanchePdf"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"/>
+
+            <Button
+                android:id="@+id/button_blizzard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blizzard"
+                android:onClick="openBlizzardPdf"
+                android:layout_below="@id/button_avalanche"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"/>
+
+            <Button
+                android:id="@+id/button_drought"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drought"
+                android:onClick="openDroughtPdf"
+                android:layout_below="@id/button_blizzard"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"/>
+
+            <Button
+                android:id="@+id/button_earthquake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earthquake"
+                android:onClick="openEarthquakePdf"
+                android:layout_below="@id/button_drought"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"/>
+
+            <Button
+                android:id="@+id/button_flood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flood"
+                android:onClick="openFloodPdf"
+                android:layout_below="@id/button_earthquake"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"/>
+
+            <Button
+                android:id="@+id/button_heatwave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heatwave"
+                android:onClick="openHeatwavePdf"
+                android:layout_below="@id/button_flood"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"/>
+
+            <Button
+                android:id="@+id/button_landslide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Landslide"
+                android:onClick="openLandslidePdf"
+                android:layout_below="@id/button_heatwave"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/button_tornado"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Tornado"-->
+<!--                android:onClick="openTornadoPdf"-->
+<!--                android:layout_below="@id/button_landslide"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentEnd="true"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button_wildfire"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Wildfire"-->
+<!--                android:onClick="openWildfirePdf"-->
+<!--                android:layout_below="@id/button_tornado"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentEnd="true"/>-->
+
         </RelativeLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

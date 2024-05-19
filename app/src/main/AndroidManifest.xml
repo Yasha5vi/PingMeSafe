@@ -44,6 +44,10 @@
             android:exported="false"
             android:theme="@style/AppTheme" />
         <activity
+            android:name=".Activities.PdfViewerActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
+        <activity
             android:name=".Activities.HomeScreen_Activity"
             android:exported="false"
             android:theme="@style/AppTheme" />
